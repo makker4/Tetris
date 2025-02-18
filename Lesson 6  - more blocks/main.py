@@ -13,7 +13,8 @@ clock = pygame.time.Clock()
 
 game_grid = Grid()
 
-block = LBlock()
+# Test rendering of blocks
+block = ZBlock()
 
 while True:
   for event in pygame.event.get():
