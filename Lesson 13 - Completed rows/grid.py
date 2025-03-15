@@ -45,7 +45,7 @@ class Grid:
     for row in range(self.num_rows - 1, 0, -1):
       if self.is_row_full(row):
         self.clear_row(row)
-        completed =+ 1
+        completed += 1
       elif completed > 0:
         self.move_row_down(row, completed)
     return completed
